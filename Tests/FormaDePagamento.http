@@ -1,0 +1,11 @@
+### Cadastrar um nova categoria
+POST https://localhost:5001/api/formadepagamento/create
+Content-Type: application/json
+
+{
+    "TipoDePagamento" : "Transferência bancária",
+    "Parcelas" : "À vista"
+}
+
+### Listar todas as categorias
+GET https://localhost:5001/api/formadepagamento/list
